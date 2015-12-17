@@ -1,0 +1,11 @@
+{
+    "name": "GnomeStylist",
+    "description": "Style elements of Gnome",
+    "uuid": "gnome-stylist@bpearson.squiz.net",
+    "shell-version": [
+      "3.14",
+      "3.16",
+      "3.18"
+    ],
+    "version": 1
+}
