@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-stylist">
+  <enum id="org.gnome.shell.extensions.gnome-stylist.clock-position">
+    <value value="0" nick="left"/>
+    <value value="1" nick="center"/>
+    <value value="2" nick="right"/>
+  </enum>
+  <schema path="/org/gnome/shell/extensions/gnome-stylist/" id="org.gnome.shell.extensions.gnome-stylist">
+    <key name="clock-position" enum="org.gnome.shell.extensions.gnome-stylist.clock-position">
+      <default>'right'</default>
+      <summary>Clock Position in Panel</summary>
+    </key>
+    <key type="b" name="remove-rounded">
+      <default>true</default>
+      <summary>Remove panel rounded corners</summary>
+    </key>
+  </schema>
+</schemalist>
